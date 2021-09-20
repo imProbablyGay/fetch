@@ -100,15 +100,3 @@ newCardBtn.addEventListener('click' , (e) => {
     }
 })
 
-fetch('cards.json',{
-    method: 'POST',
-    mode: "no-cors",
-    headers: {
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-        "username": "YOUR_USERNAME",
-        "password": "YOUR_PASSWORD"
-    })
-}).then(data => data.text())
-.then(data => console.log(data))
