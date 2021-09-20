@@ -1,0 +1,42 @@
+.cards-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 60px auto 0;
+
+    .cards__card {
+        width: 100%;
+        min-height: 500px;
+
+        .img {
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .text {
+            font-size: 30px;
+            margin-top: 30px;
+            text-align: center;
+            font-family: arial;
+        }
+    }
+}
+
+.add-new-card__btn {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background: darkorange;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+
+    span {
+        background: white;
+        padding: 10px;
+    }
+}
